@@ -141,7 +141,7 @@ footer .email-link:hover {
   color: var(--branding-color);
 }
 footer .social-links a {
-  margin: 0 20px;
+  margin: 0 15px;
   color: var(--branding-color);
   background-color: var(--secondary-color);
   padding: 10px 14px;
@@ -171,5 +171,11 @@ footer .social-links a:hover {
   .content {
     text-align: center;
     padding: 0;
+  }
+  footer .email-link {
+    font-size: smaller;
+  }
+  .content h1 {
+    font-size: 44px;
   }
 }
